@@ -1,6 +1,6 @@
 # Swift
 
-###### Defer
+### Defer
 
 https://nshipster.com/guard-and-defer/
 
@@ -22,9 +22,9 @@ func procrastinate() {
 procrastinate()
 ```
 
-###### [unowned self] [weak self]
+### [unowned self] [weak self]
 
-###### Type Properties:
+### Type Properties:
 ```
 class Animal {
     class var noise: String {
@@ -38,7 +38,7 @@ class Pig: Animal {
 Pig.noise
 ```
 
-###### Array:
+### Array:
 ```
 extension Array {
     subscript (safe index: Int) -> Element? {
@@ -47,12 +47,12 @@ extension Array {
 }
 ```
 
-###### Associated Type
-###### Error handling
-###### Closure- Escaping and non escaping
-###### Protocol Extensions
+###  Associated Type
+###  Error handling
+### Closure- Escaping and non escaping
+### Protocol Extensions
 
-###### SequenceType, Comparable, Equitable, Hashable
+### SequenceType, Comparable, Equitable, Hashable
 ```
 extension Action: Equatable { }
 func ==(lhs: Action, rhs: Action) -> Bool {
