@@ -1,7 +1,10 @@
 # Swift
 
-[x]Defer - https://nshipster.com/guard-and-defer/
+###### Defer
 
+https://nshipster.com/guard-and-defer/
+
+```
 func procrastinate() {
 
     defer{
@@ -17,10 +20,12 @@ func procrastinate() {
     print("play videogames")
 }
 procrastinate()
+```
 
-[x][unowned self] [weak self]
+###### [unowned self] [weak self]
 
-[x]Type Properties:
+###### Type Properties:
+```
 class Animal {
     class var noise: String {
         return "Animal noise!"
@@ -31,25 +36,26 @@ class Pig: Animal {
         return "Oink oink!"
     } }
 Pig.noise
+```
 
-[x]Array:
+###### Array:
+```
 extension Array {
     subscript (safe index: Int) -> Element? {
         return indices ~= index ? self[index] : nil
     }
 }
+```
 
-[]Associated Type
-[]Error handling
-[]Closure- Escaping and non escaping
-[]Protocol Extensions
+###### Associated Type
+###### Error handling
+###### Closure- Escaping and non escaping
+###### Protocol Extensions
 
-[]SequenceType, Comparable, Equitable, Hashable
-
+###### SequenceType, Comparable, Equitable, Hashable
+```
 extension Action: Equatable { }
 func ==(lhs: Action, rhs: Action) -> Bool {
 return false
 }
-
-[]Push Certificates
-https://medium.com/@jonathancardoso/using-fastlane-match-with-existing-certificates-without-revoking-them-a325be69dac6
+```
