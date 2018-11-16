@@ -1,0 +1,48 @@
+Headers
+#h1
+##h2
+######h6
+
+Emphasis
+**Bold**
+*Italic*
+~~Strikethrough~~
+**Bold and italic**
+> Quote
+
+Quoting Code
+```
+git status
+git add
+git commit
+```
+
+Links - This site was built using [GitHub Pages](https://pages.github.com/).
+
+Relative Link - [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+Images ![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+List Unordered * Item 1
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+List Ordered 1. Item 1
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+Task lists - [x]
+
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+
+Paragraph - You can create a new paragraph by leaving a blank line between lines of text.
+
+LineBreak - spacespace
