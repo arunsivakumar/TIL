@@ -47,6 +47,21 @@ extension Array {
 }
 ```
 
+### Class vs Struct
+
+###### Structures
+* Useful for representing values.
+* Implicit copying of values.
+* Becomes completely immutable when declared with let.
+* Fast memory allocation (stack).
+###### Classes
+* Useful for representing objects with an identity.
+* Implicit sharing of objects.
+* Internals can remain mutable even when declared with let.
+* Slower memory allocation (heap).”
+
+Excerpt From: By Ray Fix. “Swift Apprentice.” iBooks.
+
 ###  Associated Type
 ###  Error handling
 ### Closure- Escaping and non escaping
