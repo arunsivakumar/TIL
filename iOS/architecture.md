@@ -16,9 +16,10 @@ https://www.youtube.com/watch?v=YWVzCd5FYbs&feature=emb_title
 2. 1 View Controller ≠ 1 screen of content
 3. UICellViewController
 
-**Related:**
-https://www.youtube.com/watch?v=PdkWjdKOqfo
-
+**Related:**<BR>
+https://www.youtube.com/watch?v=PdkWjdKOqfo<BR>
+http://aplus.rs/2017/much-ado-about-ios-app-architecture/
+https://www.dotconferences.com/2018/01/ben-scheirman-buckets-of-code
 
 ## Coordinator Pattern
 
