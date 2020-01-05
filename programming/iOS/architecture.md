@@ -24,3 +24,44 @@ https://www.dotconferences.com/2018/01/ben-scheirman-buckets-of-code
 ## Coordinator Pattern
 
 https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps
+
+
+What is UIViewController?
+User Interface design updating views with model data responding to user input - UIView Subclass
+Saving restoring state
+DataSources and Delegates - Separate classes
+Animation - UIView Subclass
+Networking
+Navigation
+
+
+Navigation
+Control the flow in your app
+Handle the flow in your app
+Handle ipad/iphone variants
+Handle A/B testing
+UIViewController?
+
+A -> Coordinator(Protocol) -> B
+
+Coordinator - Sub-Coordinators
+
+
+protocol Coordinator {
+    var children: [Coordinator] { get set }
+    var nav: UINavigationController { get set }
+    func start()
+}
+
+func userTapper() {
+    coordinator.buy(widget)
+}
+
+A -> buy
+B -> buy
+C -> buy
+
+Benefits:
+No hardcoded flow
+SOLID - S
+one flow
