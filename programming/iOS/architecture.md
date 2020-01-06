@@ -65,3 +65,13 @@ Benefits:
 No hardcoded flow
 SOLID - S
 one flow
+
+
+## Advanced Coordinators
+
+1. using child coordinators
+2. Navigating backwards
+3. Passing data between controllers
+4. Coordinated tab bar controller
+5. Handling Segues
+6. Protocol and Closures
