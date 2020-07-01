@@ -1,11 +1,11 @@
-Time profiler - statical tempting
+Time profiler - statical templating
 Scheduling issues - systems tracing
 Details of process - counters template
 
 Algorithm - details
 Optimize -
 
-Inlining functions na dramas in instruments
+Inlining functions and params in instruments
 
 Sign post API - logging template in instruments
 Lock handle

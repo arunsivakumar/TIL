@@ -21,7 +21,7 @@ Breakpoint set and build
 Collection view - inside table - no self sizing
 Override intrinsic contentment size be careful
 
-Setneedsdsdiplay - layers Manuel overriding - customer views
+Setneedsdsdiplay - layers manual overriding - customer views
 Layouts - set need update constrains - resize text files
 
 https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/ConflictingLayouts.html

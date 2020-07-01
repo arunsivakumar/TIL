@@ -1,7 +1,7 @@
 Andy
 Dario
 
-Understand perf Arnold 2016
+Understand performance Arnold 2016
 Optimising swift performance
 Profile -binary size
 
@@ -18,7 +18,7 @@ Visibility  - module
 
 @inlineable
 
-Extension - nothing wrong
+Having everything in extension - nothing wrong
 Swift docs proposal
 
 Release announcements - git hub repo

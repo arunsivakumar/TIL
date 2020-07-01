@@ -21,13 +21,13 @@ Dev - a , dev - b - PP
 Some entitles like write to driver - manual
 Preference - to use automatic
 
-That’s how it is supposed to work
-Contracts do have the certificate
+Adding devs to Apple account - That’s how it is supposed to work
+Contractors do have the certificate in case of fastlane
 
 
 Create - template debug and release
 
 
- What’s new Xcode and Xcode server
-
+Past WWDC:
+What’s new Xcode and Xcode server
 Sign and resign the dev and distribution
